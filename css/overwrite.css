@@ -1,0 +1,254 @@
+h1,h2,h3,h4,h5,h6 {
+		font-family: 'Playball', sans-serif;
+		text-transform: none;
+}
+
+.navbar {
+	background: #81818E;
+}
+.navbar ul.nav a {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #3d3d43;
+}
+.nav li.active a {
+	color: #fff;
+}
+.navbar-collapse  {
+	background: #81818E;
+}
+
+
+.heading h1 {
+   	font-weight: 300;
+   	font-size: 45px;
+	text-transform: none;
+	color: #fff;
+	text-shadow: 1px 1px 6px #000000;
+}
+.ticker {
+	height: 55px;
+}
+.heading img {
+	width: 200px;
+	-ms-interpolation-mode: bicubic;
+	margin-bottom: 20px;
+}
+.heading a {
+	background: #3d3d43;
+}
+
+.breadcrumb {
+	background-color: transparent;
+	font-weight: 100;
+}
+
+.navbar-brand img {
+	max-width: 14%;
+}
+.navbar-header {
+	height: 0;
+}
+
+.homepage {
+	background-image: url(../img/bgImages/home_page2.png);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+.hero {
+	background-image: url(../img/bgImages/modern.png);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.hero2 {
+	background-image: url(../img/bgImages/trad_1.jpg);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+.hero3 {
+	background-image:url(../img/bgImages/bedrooms.png);
+	width: 100%;
+	color: #fff;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+
+/*PORTFOLIO*/
+
+#myPortfolio li a img {
+	border: solid #ffffff 5px;
+}
+
+
+.portfolio-title {
+	font: 80px;
+}
+
+.modal {
+	padding: 0%;
+}
+.modal img {
+	padding-bottom: 0%;
+}
+
+.modal button.close, .modal button.close:hover {
+	margin: 0;
+	color: #ffffff;
+	border: none;
+	padding: 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 15px;
+	background: transparent;
+	text-shadow: none;
+	margin-bottom: 20px;
+}
+
+.goHome {
+	margin-top: 50px;
+}
+
+
+/*CONTACT*/
+
+.contact {
+	background-color: #f1f1f1;
+}
+
+/*THANKS ALET BOX*/
+
+.thanks-message {
+
+	text-align: center;
+}
+.thanks-message h2 {
+	font-size: 20px;
+
+}
+
+.wrong-message {
+
+	text-align: center;
+
+}
+.wrong-message h2 {
+	font-size: 20px;
+	color: red;
+
+}
+
+.nav-tabs li a {
+	width: 120px;
+}
+
+.nav-tabs>li {
+	width: 120px;
+}
+
+.nav-pills li {
+		font-family: 'Playball', sans-serif;
+		font-size: 25px;
+}
+.nav-pills li:hover {
+		color: #000;
+}
+.nav-pills .active {
+		color: #000000;
+		border-bottom: solid 4px #000000;
+
+}
+
+
+/*.team-member-holder {
+	max-width: 400px;
+}*/
+
+
+/*TESTIMONIALS*/
+
+.carousel-caption {
+	padding-bottom: 12%;
+	z-index: 0;
+}
+.carousel-caption p {
+	font-size: 60px;
+	line-height: 62px;
+}
+.carousel-caption h3 {
+	font-size: 40px;
+	color: white;
+}
+
+/*.testimonial {
+background-image: url('../img/quote/bg.jpg');
+text-align: center;
+color: #fff;
+}
+.parallax {
+background-attachment: fixed !important;
+background-size: cover;
+}
+.section {
+background-color: #fafafa;
+padding: 70px 0;
+}
+
+*/
+
+
+
+ @media (max-width: 768px) {
+ 	.navbar-brand img {
+		width: 10%
+	}
+	.logo {
+		position: absolute;
+		top: -14px;
+	}
+
+	.heading h1 {
+		font-size: 30px;
+	}
+
+ }
+
+  @media (max-width: 550px) {
+ 	.navbar-brand img {
+		width: 10%
+	}
+	.logo {
+		position: absolute;
+		top: -10px;
+	}
+	.heading h1 {
+		font-size: 25px;
+	}
+
+ }
+
+   @media (max-width: 450px) {
+ 	.navbar-brand img {
+		width: 12%
+	}
+	.logo {
+		position: absolute;
+		top: -12px;
+	}
+
+ }
+
+
+
+
